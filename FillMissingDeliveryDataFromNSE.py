@@ -162,7 +162,7 @@ def process_symbol(symbolFile):
 def main():
     try:
         files = glob.glob(os.path.join(securityWiseDataFolder, "*.csv"))
-        files = random.shuffle(files)
+        random.shuffle(files)
         # print(f"📦 CSV files found: {files}", flush=True)
     except Exception as e:
         print(f"❌ Failed to list files in {securityWiseDataFolder}: {e}", flush=True)
