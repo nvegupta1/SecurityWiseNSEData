@@ -41,3 +41,5 @@
 
 [ParserError] Failed to parse CSV at BhavData//20251108_NSE.csv: Error tokenizing data. C error: Expected 1 fields in line 9, saw 2
 
+[ParserError] Failed to parse CSV at BhavData//20251108_NSE.csv: Error tokenizing data. C error: Expected 1 fields in line 9, saw 2
+
